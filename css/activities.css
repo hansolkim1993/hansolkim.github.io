@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+/*reset*/
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+
+/*layout*/
+body {font-family: 'Roboto', sans-serif; font-size: 14px;}
+.wrap {width: 1440px; margin: 0 auto; overflow: hidden;}
+
+/*header*/
+header {width: 100%;}
+.innerHeader {width: 100%; height: 150px; line-height: 150px;}
+.innerHeader .logo {float: left; display: block;}
+.innerHeader .logo a {width: 100%; height: 100%; display: block; margin-left: 10%;}
+.innerHeader .logo a img {width: 100%;}
+
+/*menu*/
+.innerHeader .menu {float: right; overflow: hidden; position: relative;}
+.innerHeader .menu span {position: absolute; left: 0; bottom: 40px; width: 0; height: 3px; background: #333; transition: all 0.4s;}
+.innerHeader .menu .gnb {float: right; margin-right: 100px;}
+.innerHeader .menu .gnb li {float: left; margin: 0 40px;}
+.innerHeader .menu .gnb li a {display: block; width: 100px; height: 100%;text-align: center; font-weight: 400; font-size: 24px;}
+
+
+/*section.display*/
+.display {width: 100%; overflow: hidden; margin-top: 100px;}
+
+/*subtitle*/
+.subtitle {margin-bottom: 30px;}
+
+/*display_gallery*/
+.gallery {width: 100%; height: 450px; position: relative; overflow: hidden; display: block; margin: 0 auto;}
+.gallery li {display: block; margin: 0 20px; float: left;}
+.pics {width: 400px; margin: 0 auto;}
+.pics img {width: 100%;}
+
+/*slick_dots*/
+.slick-dots {position: absolute; left: 50%; bottom: 0px; transform: translate(-50%, -50%);}
+.slick-dots li {float: left; margin: 6px;}
+.slick-dots li button {display: block; text-indent: -9999px; width: 20px; height: 20px; border-radius: 50%; border: none; cursor: pointer; background: #b4b4b4;}
+.slick-dots button:hover {background: #525252;}
+.slick-dots li.slick-active button {background: #151515;}
+
+
+/*footer*/
+footer {width: 100%; margin: 0 auto; margin-top: 50px;}
+.footWrap {width: 100%; margin: 0 auto; overflow: hidden; text-align: center; font-size: 16px;}
+.footWrap .contacts {margin: 20px;}
+.footWrap .copyright {margin: 20px 0 80px;}
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+/*reset*/
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+button {border: none; background: none;}
+
+/*layout*/
+body {font-family: 'Roboto', sans-serif; font-size: 14px;}
+.wrap {width: 1440px; margin: 0 auto; overflow: hidden;}
+
+/*header*/
+header {width: 100%;}
+.innerHeader {width: 100%; height: 150px; line-height: 150px;}
+.innerHeader .logo {float: left; display: block;}
+.innerHeader .logo a {width: 100%; height: 100%; display: block; margin-left: 10%;}
+.innerHeader .logo a img {width: 100%;}
+
+/*menu*/
+.innerHeader .menu {float: right; overflow: hidden; position: relative;}
+.innerHeader .menu span {position: absolute; left: 0; bottom: 40px; width: 0; height: 3px; background: #333; transition: all 0.4s;}
+.innerHeader .menu .gnb {float: right; margin-right: 100px;}
+.innerHeader .menu .gnb li {float: left; margin: 0 40px;}
+.innerHeader .menu .gnb li a {display: block; width: 100px; height: 100%;text-align: center; font-weight: 400; font-size: 24px;}
+
+/*research*/
+.research {width: 100%; overflow: hidden; margin-top: 50px;}
+.papers {width: 100%;}
+.wds {font-size: 20px; padding: 0 5% 25px 5%; line-height: 1.6;}
+.link a {color: #000077; text-decoration: underline}
+.btn strong {color: #000077; text-decoration: underline}
+.btn:hover, .btn:focus {text-decoration: none; cursor: pointer;}
+
+/* The Modal (background) */
+.modal {display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4);}
+
+/* Modal Content/Box */
+.modal-content {background-color: #fefefe; margin: 10% auto; padding: 20px; box-shadow: 5px 5px 5px; width: 50%; border-radius: 10px;}
+.modal-content p {text-align: center;}
+.modal-content p img {width: 80%;}
+
+/* The Close Button */
+.close {color: #aaa; float: right; font-size: 50px; font-weight: bold; margin-right: 10px;}
+.close:hover, .close:focus {color: black; text-decoration: none; cursor: pointer;}
+
+hr {padding-left: 5%; top: 20px;}
+
+/*research_experience*/
+.exp {width: 100%;}
+.box {width: 100%; margin-top: 40px}
+.box ul {overflow: hidden;}
+.box ul li {float: left;}
+.date {width: 15%; padding-left: 5%;}
+.date p {font-size: 20px;}
+.contents {width: 75%; padding-left: 5%;}
+.contents > p {font-size: 22px; line-height: ; text-indent: -30px;}
+.inform {font-size: 18px; line-height: 1.8}
+.inform span {font-style: italic;}
+.zh {font-family: 'Noto Sans SC', sans-serif; font-size: 16px;}
+
+
+/*footer*/
+footer {width: 100%; margin: 0 auto; margin-top: 50px;}
+.footWrap {width: 100%; margin: 0 auto; overflow: hidden; text-align: center; font-size: 16px;}
+.footWrap .contacts {margin: 20px;}
+.footWrap .copyright {margin: 20px 0 80px;}
+
+
+
+
+
+
+
